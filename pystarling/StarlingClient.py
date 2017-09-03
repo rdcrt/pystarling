@@ -1,5 +1,5 @@
 from pystarling.api_services import WhoAmIService, BalanceService, AccountService, CustomerService, CardService, \
-    AddressService
+    AddressService, DirectDebitMandateService
 from pystarling.api_services.transactions import TransactionServiceWrapper
 
 from pystarling.errors import NotAuthorizedError
@@ -18,6 +18,7 @@ class StarlingClient(object):
         self.customer = CustomerService.CustomerService(self._config)
         self.card = CardService.CardService(self._config)
         self.addresses = AddressService.AddressService(self._config)
+        self.mandates = DirectDebitMandateService.DirectDebitMandateService(self._config)
 
         if not self.me().authenticated:
             raise NotAuthorizedError
