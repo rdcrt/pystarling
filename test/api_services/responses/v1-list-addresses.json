@@ -1,0 +1,16 @@
+{
+  "current": {
+    "streetAddress": "Flat 2",
+    "city": "LONDON",
+    "country": "GBR",
+    "postcode": "SW1 1AA"
+  },
+  "previous": [
+    {
+      "streetAddress": "Flat 55",
+      "city": "LONDON",
+      "country": "GBR",
+      "postcode": "NE1 9ZZ"
+    }
+  ]
+}

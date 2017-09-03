@@ -11,9 +11,11 @@ def tabulate_transaction_summary(transaction):
             transaction.narrative, "{0:.2f}".format(transaction.amount)]
 
 
-def print_account_details(customer, balance, account, card):
+def print_account_details(customer, balance, account, card, addresses):
     print()
     print('Account Name:\t{} {}'.format(customer.first_name, customer.last_name))
+    print('Post Code:\t\t{}'.format(addresses.current.postcode))
+    print()
     print('Balance:\t\t{}'.format(balance.available_to_spend))
     print()
     print('Account Number:\t{}'.format(account.number))
@@ -29,7 +31,7 @@ def print_transaction_summary(transaction_table):
 if __name__ == "__main__":
     starling_token = os.getenv('STARLING_TOKEN')
     api = StarlingClient(starling_token)
-    transaction_start_date = (date.today()-timedelta(weeks=4)).isoformat()
+    transaction_start_date = (date.today() - timedelta(weeks=4)).isoformat()
 
     transactions = api.transaction.summaries.list(transaction_start_date)
 
@@ -37,7 +39,8 @@ if __name__ == "__main__":
     account = api.account.get()
     customer = api.customer.get()
     card = api.card.get()
+    addresses = api.addresses.get()
 
     tabulate_list = [tabulate_transaction_summary(t) for t in transactions]
-    print_account_details(customer, balance, account, card)
+    print_account_details(customer, balance, account, card, addresses)
     print_transaction_summary(tabulate_list)
