@@ -1,0 +1,27 @@
+{
+    "_links": {
+        "merchant": {
+            "href": "/api/v1/merchants/dbe66e5d-3aee-4dfa-9aff-d4c2d34a5f8f",
+            "templated": false
+        },
+        "merchantLocation": {
+            "href": "/api/v1/merchants/dbe66e5d-3aee-4dfa-9aff-d4c2d34a5f8f/locations/ae48516d-460f-427b-ae02-fe9cf661f7ff",
+            "templated": false
+        }
+    },
+    "id": "1b745b3e-31b5-4f6d-aa80-673557317f32",
+    "currency": "GBP",
+    "amount": -7.23,
+    "direction": "OUTBOUND",
+    "created": "2017-07-01T17:53:38.231Z",
+    "narrative": "Tesco",
+    "source": "MASTER_CARD",
+    "mastercardTransactionMethod": "CONTACTLESS",
+    "status": "SETTLED",
+    "sourceAmount": -7.23,
+    "sourceCurrency": "GBP",
+    "merchantId": "dbe66e5d-3aee-4dfa-9aff-d4c2d34a5f8f",
+    "merchantLocationId": "ae48516d-460f-427b-ae02-fe9cf661f7ff",
+    "spendingCategory": "GROCERIES",
+    "country": "GBR"
+}

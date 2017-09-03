@@ -1,0 +1,59 @@
+{
+  "_links": {
+    "nextPage": {
+      "href": "NOT_YET_IMPLEMENTED"
+    }
+  },
+  "_embedded": {
+    "transactions": [
+      {
+        "_links": {
+          "detail": {
+            "href": "api/v1/transactions/fps/out/b5c65fd2-1795-4262-93f0-f0490759bf1f",
+            "templated": false
+          }
+        },
+        "id": "b5c65fd2-1795-4262-93f0-f0490759bf1f",
+        "currency": "GBP",
+        "amount": -36.01,
+        "direction": "OUTBOUND",
+        "created": "2017-03-06T12:39:54.936Z",
+        "narrative": "External Payment",
+        "source": "FASTER_PAYMENTS_OUT",
+        "balance": 882.39
+      },
+      {
+        "_links": {
+          "detail": {
+            "href": "api/v1/transactions/mastercard/e336f58d-65ee-4248-84eb-ec4c88668f9e",
+            "templated": false
+          }
+        },
+        "id": "e336f58d-65ee-4248-84eb-ec4c88668f9e",
+        "currency": "GBP",
+        "amount": -23.75,
+        "direction": "OUTBOUND",
+        "created": "2017-03-06T12:39:54.712Z",
+        "narrative": "AMAZON EU",
+        "source": "MASTER_CARD",
+        "balance": 918.4
+      },
+      {
+        "_links": {
+          "detail": {
+            "href": "api/v1/transactions/mastercard/8f101992-d624-459c-865b-e9f6e4016016",
+            "templated": false
+          }
+        },
+        "id": "8f101992-d624-459c-865b-e9f6e4016016",
+        "currency": "GBP",
+        "amount": -33.91,
+        "direction": "OUTBOUND",
+        "created": "2017-03-04T12:39:54.687Z",
+        "narrative": "WATERLOO-PARK",
+        "source": "MASTER_CARD",
+        "balance": 942.15
+      }
+    ]
+  }
+}

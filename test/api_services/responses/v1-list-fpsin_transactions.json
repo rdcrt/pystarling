@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "nextPage": {
+            "href": "NOT_YET_IMPLEMENTED"
+        }
+    },
+    "_embedded": {
+        "transactions": [
+            {
+                "id": "336c1203-a3a8-42ff-b3c0-72228049e6db",
+                "currency": "GBP",
+                "amount": 200,
+                "direction": "INBOUND",
+                "created": "2017-08-25T06:42:43.716Z",
+                "narrative": "TOPUP",
+                "source": "FASTER_PAYMENTS_IN",
+                "sendingContactId": "63d8a910-465c-419b-b0e4-f9c843f867dc",
+                "sendingContactAccountId": "74808e7e-8068-429f-9d98-e2a5d48617e9",
+                "sendingContactAccount": {
+                    "href": "api/v1/contacts/63d8a910-465c-419b-b0e4-f9c843f867dc/accounts/74808e7e-8068-429f-9d98-e2a5d48617e9",
+                    "templated": false
+                }
+            },
+            {
+                "id": "d0692a87-95a1-4f8f-90be-0600fec25c0c",
+                "currency": "GBP",
+                "amount": 23.65,
+                "direction": "INBOUND",
+                "created": "2017-08-05T22:45:23.594Z",
+                "narrative": "Bill payment",
+                "source": "FASTER_PAYMENTS_IN"
+            }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "_links": {
+        "detail": {
+            "href": "api/v1/transactions/mastercard/dd41b0dc-ed52-4605-b71c-5ab1df1a5547",
+            "templated": false
+        }
+    },
+    "id": "dd41b0dc-ed52-4605-b71c-5ab1df1a5547",
+    "currency": "GBP",
+    "amount": -5.2,
+    "direction": "OUTBOUND",
+    "created": "2017-08-20T11:30:13.032Z",
+    "narrative": "Argos",
+    "source": "MASTER_CARD"
+}

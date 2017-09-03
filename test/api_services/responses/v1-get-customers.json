@@ -1,0 +1,30 @@
+{
+    "_links": {
+        "accounts": {
+            "href": "api/v1/accounts",
+            "templated": false
+        },
+        "addresses": {
+            "href": "api/v1/addresses",
+            "templated": false
+        },
+        "contacts": {
+            "href": "api/v1/contacts",
+            "templated": false
+        },
+        "self": {
+            "href": "api/v1/customers",
+            "templated": false
+        },
+        "transactions": {
+            "href": "api/v1/transactions?from={fromDate}&to={toDate}",
+            "templated": false
+        }
+    },
+    "customerUid": "11fee6d4-e121-4833-a7a2-0b9547347e31",
+    "firstName": "Anne",
+    "lastName": "Other",
+    "dateOfBirth": "1970-02-21",
+    "phone": "01234567890",
+    "accountHolderType": "INDIVIDUAL"
+}

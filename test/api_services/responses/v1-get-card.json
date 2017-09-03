@@ -1,0 +1,16 @@
+{
+    "_links": {
+        "transactions": {
+            "href": "/api/v1/transactions/mastercard?from={fromDate}&to={toDate}",
+            "templated": true
+        }
+    },
+    "id": "1fb03098-5fdd-4464-93b9-b8fa7e26f697",
+    "nameOnCard": "A.N. Other",
+    "type": "ContactlessDebitMastercard",
+    "enabled": true,
+    "cancelled": false,
+    "activationRequested": true,
+    "activated": true,
+    "lastFourDigits": "0001"
+}

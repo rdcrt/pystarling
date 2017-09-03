@@ -1,0 +1,65 @@
+{
+    "_links": {
+        "nextPage": {
+            "href": "NOT_YET_IMPLEMENTED"
+        }
+    },
+    "_embedded": {
+        "transactions": [
+            {
+                "_links": {
+                    "merchant": {
+                        "href": "/api/v1/merchants/ac6e87fc-b067-4376-b7c7-44b472ff4998",
+                        "templated": false
+                    },
+                    "merchantLocation": {
+                        "href": "/api/v1/merchants/ac6e87fc-b067-4376-b7c7-44b472ff4998/locations/c79e4345-3f6e-4186-9cab-fa66e5ef374c",
+                        "templated": false
+                    }
+                },
+                "id": "0a35953c-73c2-40d4-a83a-a2ad0c653a70",
+                "currency": "GBP",
+                "amount": -16.42,
+                "direction": "OUTBOUND",
+                "created": "2017-08-02T10:55:56.123Z",
+                "narrative": "Sainsbury's",
+                "source": "MASTER_CARD",
+                "mastercardTransactionMethod": "CONTACTLESS",
+                "status": "PENDING",
+                "sourceAmount": -16.42,
+                "sourceCurrency": "GBP",
+                "merchantId": "ac6e87fc-b067-4376-b7c7-44b472ff4998",
+                "merchantLocationId": "c79e4345-3f6e-4186-9cab-fa66e5ef374c",
+                "spendingCategory": "GROCERIES",
+                "country": "GBR"
+            },
+            {
+                "_links": {
+                    "merchant": {
+                        "href": "/api/v1/merchants/56063a9e-f9ce-4005-8fdf-e9808d39144a",
+                        "templated": false
+                    },
+                    "merchantLocation": {
+                        "href": "/api/v1/merchants/56063a9e-f9ce-4005-8fdf-e9808d39144a/locations/cca967c3-38bf-4bc8-9881-2dc28529c3f2",
+                        "templated": false
+                    }
+                },
+                "id": "07efa41d-dbde-4337-a861-c1314f1e425b",
+                "currency": "GBP",
+                "amount": -25.22,
+                "direction": "OUTBOUND",
+                "created": "2017-08-01T19:39:44.423Z",
+                "narrative": "Wagamama",
+                "source": "MASTER_CARD",
+                "mastercardTransactionMethod": "CONTACTLESS",
+                "status": "PENDING",
+                "sourceAmount": -25.22,
+                "sourceCurrency": "GBP",
+                "merchantId": "56063a9e-f9ce-4005-8fdf-e9808d39144a",
+                "merchantLocationId": "cca967c3-38bf-4bc8-9881-2dc28529c3f2",
+                "spendingCategory": "EATING_OUT",
+                "country": "GBR"
+            }
+        ]
+    }
+}

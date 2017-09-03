@@ -1,0 +1,35 @@
+{
+    "_links": {
+        "nextPage": {
+            "href": "NOT_YET_IMPLEMENTED"
+        }
+    },
+    "_embedded": {
+        "transactions": [
+            {
+                "id": "22497667-1416-4119-b2d0-2eef5a322641",
+                "currency": "GBP",
+                "amount": -10,
+                "direction": "OUTBOUND",
+                "created": "2017-08-25T13:56:23.514Z",
+                "narrative": "Extra dollar",
+                "source": "FASTER_PAYMENTS_OUT",
+                "receivingContactId": "895bac1b-ca48-4701-a281-d3c8c7537a32",
+                "receivingContactAccountId": "1fae7641-f8f4-4160-8b55-2a7bb40462f5",
+                "receivingContactAccount": {
+                    "href": "api/v1/contacts/895bac1b-ca48-4701-a281-d3c8c7537a32/accounts/1fae7641-f8f4-4160-8b55-2a7bb40462f5",
+                    "templated": false
+                }
+            },
+            {
+                "id": "ebd68a81-da63-4b8e-b538-ff2cf3538b2a",
+                "currency": "GBP",
+                "amount": -23.45,
+                "direction": "OUTBOUND",
+                "created": "2017-08-25T03:36:23.514Z",
+                "narrative": "More pounds",
+                "source": "FASTER_PAYMENTS_OUT"
+            }
+        ]
+    }
+}
