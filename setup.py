@@ -31,4 +31,9 @@ setup(
     version=find_version('pystarling', '__init__.py'),
     license='MIT License',
     packages=['pystarling'],
+    install_requires=[
+        python-dateutil>=2.6.1
+        requests>=2.18.4
+        six>=1.10.0
+    ]
 )
