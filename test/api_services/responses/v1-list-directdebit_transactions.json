@@ -1,0 +1,33 @@
+{
+    "_links": {
+        "nextPage": {
+            "href": "NOT_YET_IMPLEMENTED"
+        }
+    },
+    "_embedded": {
+        "transactions": [
+            {
+            "id": "03d2ead3-f1fa-4bee-be05-f72bace5db46",
+            "currency": "GBP",
+            "amount": -110,
+            "direction": "OUTBOUND",
+            "created": "2017-08-25T06:42:43.716Z",
+            "narrative": "British Gas",
+            "source": "DIRECT_DEBIT",
+            "mandateId": "e7a8057b-fe04-423c-bf95-c835393ea414",
+            "type": "FIRST_PAYMENT_OF_DIRECT_DEBIT"
+        },
+            {
+            "id": "038d1ef2-0954-4689-b27e-645bea5a9fab",
+            "currency": "GBP",
+            "amount": -130,
+            "direction": "OUTBOUND",
+            "created": "2017-05-25T06:42:43.716Z",
+            "narrative": "Thames Water",
+            "source": "DIRECT_DEBIT",
+            "mandateId": "f54495e2-cd0d-4dda-827b-f3d36e59d69c",
+            "type": "DIRECT_DEBIT_FINAL_PAYMENT"
+        }
+        ]
+    }
+}

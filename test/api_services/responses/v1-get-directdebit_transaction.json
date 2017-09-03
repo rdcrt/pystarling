@@ -1,0 +1,11 @@
+{
+    "id": "03d2ead3-f1fa-4bee-be05-f72bace5db46",
+    "currency": "GBP",
+    "amount": 200,
+    "direction": "INBOUND",
+    "created": "2017-08-25T06:42:43.716Z",
+    "narrative": "British Gas",
+    "source": "DIRECT_DEBIT",
+    "mandateId": "e7a8057b-fe04-423c-bf95-c835393ea414",
+    "type": "FIRST_PAYMENT_OF_DIRECT_DEBIT"
+}

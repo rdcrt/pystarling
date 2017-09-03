@@ -1,3 +1,4 @@
+from pystarling.api_services.transactions.TransactionDirectDebitService import TransactionDirectDebitService
 from pystarling.api_services.transactions.TransactionFpsInService import TransactionFpsInService
 from pystarling.api_services.transactions.TransactionFpsOutService import TransactionFpsOutService
 from pystarling.api_services.transactions.TransactionMastercardService import TransactionMastercardService
@@ -10,4 +11,5 @@ class TransactionServiceWrapper:
         self.mastercard = TransactionMastercardService(config)
         self.fps_in = TransactionFpsInService(config)
         self.fps_out = TransactionFpsOutService(config)
+        self.direct_debit = TransactionDirectDebitService(config)
 
