@@ -1,6 +1,6 @@
 import io
 import re
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 import os
 
@@ -30,7 +30,7 @@ setup(
     name='pystarling',
     version=find_version('pystarling', '__init__.py'),
     license='MIT License',
-    packages=['pystarling'],
+    packages=find_packages(),
     install_requires=[
         'python-dateutil>=2.6.1',
         'requests>=2.18.4',
